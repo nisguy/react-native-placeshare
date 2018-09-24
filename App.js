@@ -7,6 +7,7 @@ import FindPlaceScreen from "./src/screens/FindPlace/FindPlace";
 import PlaceDetailScreen from "./src/screens/PlaceDetail/PlaceDetail";
 
 import configStore from "./src/store/storeConfig";
+import SideDrawer from "./src/screens/SideDrawer/SideDrawer";
 
 const store = configStore();
 
@@ -32,6 +33,7 @@ Navigation.registerComponent(
   "awesome-place.PlaceDetail",
   () => PlaceDetailScreen
 );
+Navigation.registerComponent("awesome-place.SideDrawer", () => SideDrawer);
 
 // Start an App
 Navigation.startSingleScreenApp({
