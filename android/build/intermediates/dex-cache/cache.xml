@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\rncourse\react-native-vector-icons\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="279750fed3c920d06351dbf32889c1b48203c7ad">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\rncourse-react-native-vector-icons-unspecified_489cbe0f18d33c68151d07518301a84a57ddb982.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.1_765ba034d1ebdd6fd991484688d2909702ac329c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sam\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_d263b5d00f6b8a410de24db77f97ddeadb58b933.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sam\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_67f77c283d5b7080504916a9cb688ad32f297b71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\rncourse\react-native-vector-icons\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="279750fed3c920d06351dbf32889c1b48203c7ad">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\rncourse-react-native-vector-icons-unspecified_489cbe0f18d33c68151d07518301a84a57ddb982.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sam\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_510fbc9043837d2661c7f95d002c9251241f6ffd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.3.1_c07e1370f7a158467d31c1e2d96d9490f68274e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sam\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_0062381ca5775dc281f57a1937940b9d67b108d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sam\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_548f5bc7a2154f65aa83ee0cc395cdd104e9b9ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_527cea25cbf81b6fcdb429bbd1b2ac7a8b85c365.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.balysv.materialmenu\material-menu\1.5.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1f6ff1728c297524e82b875ce2dfda946f4bca41">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.balysv.materialmenu-material-menu-1.5.4_6ac30c90a46d73963cef9da5dede814cfc12e1dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_1677f81dc812e0ced65dabb005978823d85f4570.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_b61c0760632355244dbf0d0ed2c64bb901b70c50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sam\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_0062381ca5775dc281f57a1937940b9d67b108d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sam\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_510fbc9043837d2661c7f95d002c9251241f6ffd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.3.1_dfd57b470edec651b171d32e2925d8e6dd6f0d4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.3.1_b087d3a49a215af172fb8e4e271b7c6950b180fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_5b928f8076a7a01b8275191bb44383b47691a117.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\rncourse\react-native-navigation\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5ad1e03329267d744fb4dfdc6a9ae799f00a622c">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\rncourse-react-native-navigation-unspecified_1f661a88d0f7dad313e1f1920963316caf0c238b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_91baf6a838dbcade636eb69e4c0d531d9f80eaf8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sam\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_66335d2b765a5b0b95e361e4dcb3ea522d6624c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_5b928f8076a7a01b8275191bb44383b47691a117.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.balysv.materialmenu\material-menu-toolbar\1.5.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="55d7bf547c88cb7c8c7c5cdbf3b06dd66c9750f8">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.balysv.materialmenu-material-menu-toolbar-1.5.4_9b5ed098acc30cbd7b89cb38b23b794225c27953.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sam\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_67f77c283d5b7080504916a9cb688ad32f297b71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sam\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_66335d2b765a5b0b95e361e4dcb3ea522d6624c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_91baf6a838dbcade636eb69e4c0d531d9f80eaf8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_37cfc334725ba624b50926b534a8a0f6a847fbb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.55.4_371bc67e7aa3d32aa5229134ebfc58f17b58632d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sam\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_062b1892a4a6923250cb56cf408823a28235a1f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_be1b007fe229209d1e9bdf405c5aec35bde7fe5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_662adbb4dad5f67f898afa3bc9f7003fa887dd4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sam\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_3a5b442dd8e923107215977616e1800da6585671.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sam\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_062b1892a4a6923250cb56cf408823a28235a1f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sam\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\library-2.4.0_5f3c2ad6d19dcfc593afd2efc95c05ee4c6dc863.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sam\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_3a5b442dd8e923107215977616e1800da6585671.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_9c1a7de07729e63f1f52679b1e8d60199378a263.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_be1b007fe229209d1e9bdf405c5aec35bde7fe5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_a72c940b50c816f1863443d72e8627ca5c0094fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_eb667622bb36fdb30d32444d5cef3c467d248d6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_9c1a7de07729e63f1f52679b1e8d60199378a263.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.1_1ff651e34bb1eee781681c8b86ebd081a87a10ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_a72c940b50c816f1863443d72e8627ca5c0094fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_ee4493b7928ab0906845513e3212394048ab3f80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_ee4493b7928ab0906845513e3212394048ab3f80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.aurelhubert\ahbottomnavigation\2.0.6\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c8ba41bea7f78f8bdf3a803b9d08eb3fff416706">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.aurelhubert-ahbottomnavigation-2.0.6_539d536a0cff1cfd36ff969c81106aeb27d796a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_da1ec9d0d12653c5d9ad1e62f1d5a73e118a2338.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_b10f3934d79e758afc6dd521a3ec699f38f8766a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.1_0e6f22d2989b02b77fbe80bffae6966006e90240.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_70b2856f249c0d75bf9fad45bfcc136072b911fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sam\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_548f5bc7a2154f65aa83ee0cc395cdd104e9b9ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_eb667622bb36fdb30d32444d5cef3c467d248d6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.55.4_371bc67e7aa3d32aa5229134ebfc58f17b58632d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_b10f3934d79e758afc6dd521a3ec699f38f8766a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="C:\BRIDGE OF SPIES\Programming\react-native\rncourse\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_662adbb4dad5f67f898afa3bc9f7003fa887dd4d.jar" />
+    </item>
+
+</items>
