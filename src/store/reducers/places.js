@@ -20,7 +20,8 @@ const reducer = (state = initialState, action) => {
           image: {
             uri:
               "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHNGiLLHqZjflETpVrO4RqAOOwTu8R-ZgvcbL53oaHJvOto8tdcA"
-          }
+          },
+          location: action.placeLocation
         })
       };
     case DELETE_PLACE:

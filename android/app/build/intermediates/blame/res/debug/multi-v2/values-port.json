@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\BRIDGE OF SPIES\\Programming\\react-native\\rncourse\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\sam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\c81d14688235e5eb867a594826033cac\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\BRIDGE OF SPIES\\Programming\\react-native\\rncourse\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\sam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\c81d14688235e5eb867a594826033cac\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

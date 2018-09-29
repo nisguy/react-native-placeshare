@@ -4,7 +4,7 @@ import {
   View,
   Image,
   Text,
-  Button,
+  Platform,
   StyleSheet,
   TouchableOpacity
 } from "react-native";
@@ -12,6 +12,7 @@ import {
 import Icon from "react-native-vector-icons/Ionicons";
 
 const placeDetail = props => {
+  console.log(Platform.OS);
   return (
     <View>
       <Image source={props.selectedPlace.image} style={styles.selectedImage} />
@@ -19,7 +20,11 @@ const placeDetail = props => {
       <View>
         <TouchableOpacity onPress={props.onItemDeleted}>
           <View style={{ alignItems: "center" }}>
-            <Icon size={30} name="ios-trash" color="red" />
+            <Icon
+              size={30}
+              name={Platform.OS === "android" ? "md-trash" : "ios-trash"}
+              color="red"
+            />
           </View>
         </TouchableOpacity>
       </View>

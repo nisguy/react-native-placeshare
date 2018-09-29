@@ -1,14 +1,15 @@
 import {
   ADD_PLACE,
   DELETE_PLACE,
-  SELECT_PLACE,
+  TRY_AUTH,
   DESELECT_PLACE
 } from "./actionTypes";
 
-export const addPlace = placeName => {
+export const addPlace = (placeName, placeLocation) => {
   return {
     type: ADD_PLACE,
-    placeName: placeName
+    placeName: placeName,
+    placeLocation: placeLocation
   };
 };
 export const deletePlace = key => {
@@ -17,10 +18,11 @@ export const deletePlace = key => {
     key
   };
 };
-export const selectPlace = key => {
+export const tryAuth = userData => {
+  console.log("login attempt");
   return {
-    type: SELECT_PLACE,
-    placeKey: key
+    type: TRY_AUTH,
+    userData: userData
   };
 };
 
