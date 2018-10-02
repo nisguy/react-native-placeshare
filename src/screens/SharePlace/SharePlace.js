@@ -1,5 +1,12 @@
 import React, { Component } from "react";
-import { View, Text, Button, StyleSheet, ScrollView } from "react-native";
+import {
+  View,
+  Text,
+  Button,
+  StyleSheet,
+  ScrollView,
+  ActivityIndicator
+} from "react-native";
 import { connect } from "react-redux";
 
 import { addPlace } from "../../store/actions/index";
@@ -13,7 +20,23 @@ class SharePlaceScreen extends Component {
     location: {
       value: null,
       valid: false
+    },
+    image: {
+      value: null,
+      valid: false
     }
+  };
+
+  addImage = image => {
+    this.setState(prevState => {
+      return {
+        ...prevState,
+        image: {
+          value: image,
+          valid: true
+        }
+      };
+    });
   };
 
   changeTextHandler = val => {
@@ -25,6 +48,7 @@ class SharePlaceScreen extends Component {
   addLocation = location => {
     this.setState(prevState => {
       return {
+        ...prevState,
         location: {
           value: location,
           valid: true
@@ -36,7 +60,11 @@ class SharePlaceScreen extends Component {
   addPlace = () => {
     this.setState({ placeName: "" });
     if (this.state.placeName.trim() !== "") {
-      this.props.onAdd(this.state.placeName, this.state.location);
+      this.props.onAdd(
+        this.state.placeName,
+        this.state.location.value,
+        this.state.image.value
+      );
     }
   };
 
@@ -56,11 +84,19 @@ class SharePlaceScreen extends Component {
   };
 
   render() {
+    let shareButton = (
+      <Button title="Share the place" onPress={this.addPlace} />
+    );
+
+    if (this.props.isLoading) {
+      shareButton = <ActivityIndicator />;
+    }
+
     return (
       <ScrollView>
         <View style={styles.container}>
           <Text>Share a place with us!</Text>
-          <PickImage />
+          <PickImage pickImageHandler={this.addImage} />
           <PickLocation onLocationAdd={this.addLocation} />
           <Defaultinput
             placeholder="Place Name"
@@ -68,7 +104,7 @@ class SharePlaceScreen extends Component {
             changeTextHandler={this.changeTextHandler}
             style={{ width: "80%" }}
           />
-          <Button title="Share the place" onPress={this.addPlace} />
+          <View>{shareButton}</View>
         </View>
       </ScrollView>
     );
@@ -82,13 +118,19 @@ const styles = StyleSheet.create({
   }
 });
 
+const mapStateToProps = state => {
+  return {
+    isLoading: state.UI.loading
+  };
+};
+
 const mapDispatchToProps = dispatch => {
   return {
-    onAdd: (name, location) => dispatch(addPlace(name, location))
+    onAdd: (name, location, image) => dispatch(addPlace(name, location, image))
   };
 };
 
 export default connect(
-  null,
+  mapStateToProps,
   mapDispatchToProps
 )(SharePlaceScreen);

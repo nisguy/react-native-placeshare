@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { View, Text } from "react-native";
+import { View, ActivityIndicator } from "react-native";
 import { connect } from "react-redux";
 
-import { deletePlace } from "../../store/actions/index";
+import { setPlaces, deletePlace } from "../../store/actions/index";
 
 import PlaceList from "../../components/ListItems/listItems";
 
@@ -10,6 +10,10 @@ class SharePlaceScreen extends Component {
   constructor(props) {
     super(props);
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent);
+  }
+
+  componentDidMount() {
+    this.props.getPlaces();
   }
 
   onNavigatorEvent = event => {
@@ -41,26 +45,31 @@ class SharePlaceScreen extends Component {
     });
   };
   render() {
-    return (
-      <View>
+    let list = <ActivityIndicator size="large" />;
+
+    if (!this.props.isLoading) {
+      list = (
         <PlaceList
           places={this.props.places}
           itemSelect={this.itemSelectHandler}
         />
-      </View>
-    );
+      );
+    }
+    return <View>{list}</View>;
   }
 }
 
 const mapStateToProps = state => {
   return {
-    places: state.places.places
+    places: state.places.places,
+    isLoading: state.UI.loading
   };
 };
 
 const mapDispatchToProps = dispatch => {
   return {
-    onDelete: key => dispatch(deletePlace(key))
+    onDelete: key => dispatch(deletePlace(key)),
+    getPlaces: () => dispatch(setPlaces())
   };
 };
 

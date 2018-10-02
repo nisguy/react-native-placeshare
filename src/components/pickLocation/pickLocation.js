@@ -37,7 +37,6 @@ class PickLocation extends Component {
   };
 
   locateYourselfHandler = () => {
-    console.log("clicked");
     navigator.geolocation.getCurrentPosition(
       pos => {
         console.log(pos);

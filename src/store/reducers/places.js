@@ -1,4 +1,5 @@
 import {
+  SET_PLACES,
   ADD_PLACE,
   DELETE_PLACE,
   SELECT_PLACE,
@@ -15,14 +16,16 @@ const reducer = (state = initialState, action) => {
       return {
         ...state,
         places: state.places.concat({
-          key: Math.random(),
-          name: action.placeName,
-          image: {
-            uri:
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHNGiLLHqZjflETpVrO4RqAOOwTu8R-ZgvcbL53oaHJvOto8tdcA"
-          },
-          location: action.placeLocation
+          key: action.key,
+          name: action.name,
+          image: action.image,
+          location: action.location
         })
+      };
+    case SET_PLACES:
+      return {
+        ...state,
+        places: action.places
       };
     case DELETE_PLACE:
       return {

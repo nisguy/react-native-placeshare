@@ -1,21 +1,34 @@
 import React from "react";
 import {
-  Modal,
+  ScrollView,
   View,
   Image,
   Text,
   Platform,
   StyleSheet,
-  TouchableOpacity
+  TouchableOpacity,
+  Dimensions
 } from "react-native";
 
 import Icon from "react-native-vector-icons/Ionicons";
+import MapView from "react-native-maps";
 
 const placeDetail = props => {
-  console.log(Platform.OS);
   return (
-    <View>
+    <ScrollView>
       <Image source={props.selectedPlace.image} style={styles.selectedImage} />
+      <MapView
+        initialRegion={{
+          ...props.selectedPlace.location,
+          latitudeDelta: 0.0122,
+          longitudeDelta:
+            (Dimensions.get("window").width / Dimensions.get("window").height) *
+            0.0122
+        }}
+        style={styles.selectedImage}
+      >
+        <MapView.Marker coordinate={props.selectedPlace.location} />
+      </MapView>
       <Text style={styles.placeName}>{props.selectedPlace.name}</Text>
       <View>
         <TouchableOpacity onPress={props.onItemDeleted}>
@@ -28,13 +41,13 @@ const placeDetail = props => {
           </View>
         </TouchableOpacity>
       </View>
-    </View>
+    </ScrollView>
   );
 };
 
 const styles = StyleSheet.create({
   selectedImage: {
-    height: 200,
+    height: 170,
     width: "100%"
   },
   placeName: {
