@@ -1,49 +1,65 @@
 import { SET_PLACES, ADD_PLACE, DELETE_PLACE } from "./actionTypes";
-import { uiStartLoading, uiStopLoading } from "./index";
+import { uiStartLoading, uiStopLoading, authGetToken } from "./index";
 
 export const addPlace = (placeName, placeLocation, placeImage) => {
   return dispatch => {
     dispatch(uiStartLoading());
-    fetch("https://us-central1-place-sharing.cloudfunctions.net/uploadImage", {
-      method: "POST",
-      body: JSON.stringify({
-        image: placeImage.base64
-      })
-    })
-      .catch(err => {
-        console.log("Network error: ", err);
-        dispatch(uiStopLoading());
-      })
-      .then(res => res.json())
-      .then(parsedRes => {
-        var placeData = {
-          name: placeName,
-          location: placeLocation,
-          image: parsedRes.imageURL
-        };
-        fetch("https://place-sharing.firebaseio.com/places.json", {
-          method: "POST",
-          body: JSON.stringify(placeData)
-        })
+    var authToken = null;
+    dispatch(authGetToken())
+      .then(token => {
+        authToken = token;
+        fetch(
+          "https://us-central1-place-sharing.cloudfunctions.net/uploadImage",
+          {
+            method: "POST",
+            body: JSON.stringify({
+              image: placeImage.base64
+            }),
+            headers: {
+              authorization: "Bearer " + authToken
+            }
+          }
+        )
           .catch(err => {
             console.log("Network error: ", err);
             dispatch(uiStopLoading());
           })
           .then(res => res.json())
           .then(parsedRes => {
-            console.log("As you asked", parsedRes.name);
-            dispatch(localPlaceAdd(parsedRes.name, placeData));
-            dispatch(uiStopLoading());
+            var placeData = {
+              name: placeName,
+              location: placeLocation,
+              image: parsedRes.imageURL
+            };
+            fetch(
+              "https://place-sharing.firebaseio.com/places.json?auth=" +
+                authToken,
+              {
+                method: "POST",
+                body: JSON.stringify(placeData)
+              }
+            )
+              .catch(err => {
+                console.log("Network error: ", err);
+                dispatch(uiStopLoading());
+              })
+              .then(res => res.json())
+              .then(parsedRes => {
+                console.log("As you asked", parsedRes.name);
+                dispatch(localPlaceAdd(parsedRes.name, placeData));
+                dispatch(uiStopLoading());
+              })
+              .catch(err => {
+                console.log("Error: ", err);
+                dispatch(uiStopLoading());
+              });
           })
           .catch(err => {
-            console.log("Error: ", err);
+            console.log(err);
             dispatch(uiStopLoading());
           });
       })
-      .catch(err => {
-        console.log("General error: ", err);
-        dispatch(uiStopLoading());
-      });
+      .catch(err => {});
   };
 };
 
@@ -67,7 +83,13 @@ export const setPlaces = () => {
   console.log("fetching places...");
   return dispatch => {
     dispatch(uiStartLoading());
-    fetch("https://place-sharing.firebaseio.com/places.json")
+    dispatch(authGetToken())
+      .catch(() => alert("No valid token"))
+      .then(token => {
+        return fetch(
+          "https://place-sharing.firebaseio.com/places.json?auth=" + token
+        );
+      })
       .then(res => res.json())
       .then(parsedRes => {
         console.log("Data received");
@@ -83,15 +105,28 @@ export const setPlaces = () => {
         dispatch(setPlacesAction(fetchedPlaces));
         dispatch(uiStopLoading());
       })
-      .catch(error => console.log(error));
+      .catch(error => {
+        dispatch(uiStopLoading());
+        console.log(error);
+      });
   };
 };
 
 export const deletePlace = key => {
   return dispatch => {
-    fetch("https://place-sharing.firebaseio.com/places/" + key + ".json", {
-      method: "DELETE"
-    })
+    dispatch(authGetToken())
+      .catch(() => alert("No valid token"))
+      .then(token => {
+        return fetch(
+          "https://place-sharing.firebaseio.com/places/" +
+            key +
+            ".json?auth=" +
+            token,
+          {
+            method: "DELETE"
+          }
+        );
+      })
       .then(res => res.json())
       .then(jsonData => {
         console.log("delete response: ", jsonData);

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import {
   View,
+  ActivityIndicator,
   Text,
   Button,
   TextInput,
@@ -12,10 +13,9 @@ import {
 } from "react-native";
 import { connect } from "react-redux";
 
-import startMainTabs from "../MainTabs/startMainTabs";
 import HeadingText from "../../components/UI/headingText";
 import backgroundImage from "../../assets/background.jpg";
-import { tryAuth } from "../../store/actions/index";
+import { tryAuth, autoSignIn } from "../../store/actions/index";
 
 import validator from "../../utlity/validator";
 
@@ -55,6 +55,10 @@ class Auth extends Component {
 
   componentWillUnmount() {
     Dimensions.removeEventListener("change", this.responsiveFunc);
+  }
+
+  componentDidMount() {
+    this.props.onAutoSignIn();
   }
 
   responsiveFunc = dims => {
@@ -123,13 +127,12 @@ class Auth extends Component {
     });
   };
 
-  loginHandler = () => {
+  authHandler = () => {
     const authData = {
       email: this.state.controls.email.value,
       password: this.state.controls.password.value
     };
-    this.props.onLogin(authData);
-    startMainTabs();
+    this.props.onTryAuth(authData, this.state.authMode);
   };
   render() {
     let headingText = null;
@@ -160,6 +163,21 @@ class Auth extends Component {
           </Text>
         </HeadingText>
       );
+    }
+
+    let submit = (
+      <Button
+        title="Submit"
+        disabled={
+          this.state.authMode == "signup" &&
+          !this.state.controls.confirmPassword.valid
+        }
+        onPress={this.authHandler}
+      />
+    );
+
+    if (this.props.isLoading) {
+      submit = <ActivityIndicator />;
     }
 
     return (
@@ -208,8 +226,7 @@ class Auth extends Component {
                 {confirmPass}
               </View>
             </View>
-
-            <Button title="Submit" onPress={this.loginHandler} />
+            {submit}
           </View>
         </TouchableWithoutFeedback>
       </ImageBackground>
@@ -246,15 +263,22 @@ const styles = StyleSheet.create({
   }
 });
 
+const mapStateToProps = state => {
+  return {
+    isLoading: state.UI.loading
+  };
+};
+
 const mapDispatchToProps = dispatch => {
   return {
-    onLogin: userData => {
-      dispatch(tryAuth(userData));
-    }
+    onTryAuth: (userData, authMode) => {
+      dispatch(tryAuth(userData, authMode));
+    },
+    onAutoSignIn: () => dispatch(autoSignIn())
   };
 };
 
 export default connect(
-  null,
+  mapStateToProps,
   mapDispatchToProps
 )(Auth);
