@@ -81,15 +81,11 @@ export const authGetToken = () => {
     const promise = new Promise((resolve, reject) => {
       let storedToken;
       const token = getState().auth.token;
-      console.log("reduxtoken: ", token);
       if (!token) {
         AsyncStorage.getItem("ap:auth:token")
           .then(tokenFromStorage => {
-            console.log(tokenFromStorage);
             if (tokenFromStorage != null) {
               storedToken = tokenFromStorage;
-              console.log("localstorage: ", storedToken);
-
               return AsyncStorage.getItem("ap:auth:expiryDate");
             } else {
               reject();
@@ -114,7 +110,6 @@ export const authGetToken = () => {
             reject();
           });
       } else {
-        console.log("token", token);
         resolve(token);
       }
     });

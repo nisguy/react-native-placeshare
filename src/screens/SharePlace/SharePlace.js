@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import { connect } from "react-redux";
 
-import { addPlace } from "../../store/actions/index";
+import { addPlace, startAddPlace } from "../../store/actions/index";
 import PickImage from "../../components/pickImage/pickImage";
 import PickLocation from "../../components/pickLocation/pickLocation";
 import Defaultinput from "../../components/UI/defaultInputs";
@@ -26,6 +26,12 @@ class SharePlaceScreen extends Component {
       valid: false
     }
   };
+
+  componentWillUpdate() {
+    if (this.props.onPlaceAdd) {
+      this.props.navigator.switchToTab({ tabIndex: 0 });
+    }
+  }
 
   addImage = image => {
     this.setState(prevState => {
@@ -58,13 +64,15 @@ class SharePlaceScreen extends Component {
   };
 
   addPlace = () => {
-    this.setState({ placeName: "" });
     if (this.state.placeName.trim() !== "") {
       this.props.onAdd(
         this.state.placeName,
         this.state.location.value,
         this.state.image.value
       );
+      this.setState({ placeName: "" });
+      this.imagePicker.reset();
+      this.locationPicker.reset();
     }
   };
 
@@ -74,6 +82,12 @@ class SharePlaceScreen extends Component {
   }
 
   onNavigatorEvent = event => {
+    console.log(event);
+    if (event.type === "ScreenChangedEvent") {
+      if (event.id === "willAppear") {
+        this.props.onPageRefresh();
+      }
+    }
     if (event.type === "NavBarButtonPress") {
       if (event.id === "sideDrawerToggle") {
         this.props.navigator.toggleDrawer({
@@ -96,8 +110,14 @@ class SharePlaceScreen extends Component {
       <ScrollView>
         <View style={styles.container}>
           <Text>Share a place with us!</Text>
-          <PickImage pickImageHandler={this.addImage} />
-          <PickLocation onLocationAdd={this.addLocation} />
+          <PickImage
+            pickImageHandler={this.addImage}
+            ref={ref => (this.imagePicker = ref)}
+          />
+          <PickLocation
+            onLocationAdd={this.addLocation}
+            ref={ref => (this.locationPicker = ref)}
+          />
           <Defaultinput
             placeholder="Place Name"
             value={this.state.placeName}
@@ -120,13 +140,15 @@ const styles = StyleSheet.create({
 
 const mapStateToProps = state => {
   return {
-    isLoading: state.UI.loading
+    isLoading: state.UI.loading,
+    onPlaceAdd: state.places.placeAdded
   };
 };
 
 const mapDispatchToProps = dispatch => {
   return {
-    onAdd: (name, location, image) => dispatch(addPlace(name, location, image))
+    onAdd: (name, location, image) => dispatch(addPlace(name, location, image)),
+    onPageRefresh: () => dispatch(startAddPlace())
   };
 };
 

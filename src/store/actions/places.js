@@ -1,4 +1,9 @@
-import { SET_PLACES, ADD_PLACE, DELETE_PLACE } from "./actionTypes";
+import {
+  SET_PLACES,
+  ADD_PLACE,
+  START_ADD_PLACE,
+  DELETE_PLACE
+} from "./actionTypes";
 import { uiStartLoading, uiStopLoading, authGetToken } from "./index";
 
 export const addPlace = (placeName, placeLocation, placeImage) => {
@@ -69,6 +74,12 @@ const localPlaceAdd = (key, placeData) => {
     key,
     ...placeData,
     image: { uri: placeData.image }
+  };
+};
+
+export const startAddPlace = () => {
+  return {
+    type: START_ADD_PLACE
   };
 };
 

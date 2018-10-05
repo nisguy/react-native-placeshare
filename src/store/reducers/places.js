@@ -3,11 +3,12 @@ import {
   ADD_PLACE,
   DELETE_PLACE,
   SELECT_PLACE,
-  DESELECT_PLACE
+  START_ADD_PLACE
 } from "../actions/actionTypes";
 
 const initialState = {
-  places: []
+  places: [],
+  placeAdded: false
 };
 
 const reducer = (state = initialState, action) => {
@@ -20,7 +21,13 @@ const reducer = (state = initialState, action) => {
           name: action.name,
           image: action.image,
           location: action.location
-        })
+        }),
+        placeAdded: true
+      };
+    case START_ADD_PLACE:
+      return {
+        ...state,
+        placeAdded: false
       };
     case SET_PLACES:
       return {
@@ -35,10 +42,6 @@ const reducer = (state = initialState, action) => {
         })
       };
     case SELECT_PLACE:
-      return {
-        ...state
-      };
-    case DESELECT_PLACE:
       return {
         ...state
       };

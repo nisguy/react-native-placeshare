@@ -44,12 +44,12 @@
         "source": "C:\\Users\\sam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\c81d14688235e5eb867a594826033cac\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "C:\\BRIDGE OF SPIES\\Programming\\react-native\\rncourse\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\sam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\c81d14688235e5eb867a594826033cac\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
         "merged": "C:\\BRIDGE OF SPIES\\Programming\\react-native\\rncourse\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\sam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\c81d14688235e5eb867a594826033cac\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\BRIDGE OF SPIES\\Programming\\react-native\\rncourse\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\sam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\c81d14688235e5eb867a594826033cac\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "C:\\BRIDGE OF SPIES\\Programming\\react-native\\rncourse\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\amu_info_window.xml",
