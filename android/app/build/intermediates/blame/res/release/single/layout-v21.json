@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\BRIDGE OF SPIES\\Programming\\react-native\\rncourse\\android\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\sam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\c81d14688235e5eb867a594826033cac\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\BRIDGE OF SPIES\\Programming\\react-native\\rncourse\\android\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\sam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\c81d14688235e5eb867a594826033cac\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\BRIDGE OF SPIES\\Programming\\react-native\\rncourse\\android\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\sam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\c81d14688235e5eb867a594826033cac\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\BRIDGE OF SPIES\\Programming\\react-native\\rncourse\\android\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\bottom_navigation_item.xml",
+        "source": "C:\\Users\\sam\\.gradle\\caches\\transforms-1\\files-1.1\\ahbottomnavigation-2.0.6.aar\\404c5eef27ba4afa75bddb5a8252fa27\\res\\layout-v21\\bottom_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\BRIDGE OF SPIES\\Programming\\react-native\\rncourse\\android\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\sam\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\c81d14688235e5eb867a594826033cac\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\BRIDGE OF SPIES\\Programming\\react-native\\rncourse\\android\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\bottom_navigation_small_item.xml",
+        "source": "C:\\Users\\sam\\.gradle\\caches\\transforms-1\\files-1.1\\ahbottomnavigation-2.0.6.aar\\404c5eef27ba4afa75bddb5a8252fa27\\res\\layout-v21\\bottom_navigation_small_item.xml"
+    }
+]

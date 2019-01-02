@@ -1,0 +1,4 @@
+#Sat Oct 06 09:08:28 EAT 2018
+base.0=C\:\\BRIDGE OF SPIES\\Programming\\react-native\\rncourse\\android\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

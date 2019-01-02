@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\BRIDGE OF SPIES\\Programming\\react-native\\rncourse\\android\\app\\build\\intermediates\\res\\merged\\release\\menu\\stub.xml",
+        "source": "C:\\BRIDGE OF SPIES\\Programming\\react-native\\rncourse\\node_modules\\react-native-navigation\\android\\app\\build\\intermediates\\packaged_res\\release\\menu\\stub.xml"
+    },
+    {
+        "merged": "C:\\BRIDGE OF SPIES\\Programming\\react-native\\rncourse\\android\\app\\build\\intermediates\\res\\merged\\release\\menu\\search_item.xml",
+        "source": "C:\\BRIDGE OF SPIES\\Programming\\react-native\\rncourse\\node_modules\\react-native-navigation\\android\\app\\build\\intermediates\\packaged_res\\release\\menu\\search_item.xml"
+    }
+]
